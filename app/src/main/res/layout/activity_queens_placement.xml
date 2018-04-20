@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QueensPlacement">
+
+    <TableLayout
+        android:id="@+id/Layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TableRow
+            android:id="@+id/Row1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt8"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:fontFamily="monospace"
+                android:text="8"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
+                android:textSize="25sp"
+                tools:text="8" />
+
+            <ImageButton
+                android:id="@+id/21"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/22"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/23"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/24"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/25"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/26"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/27"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/28"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:text="7"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
+                android:textSize="25sp"
+                tools:text="7" />
+
+            <ImageButton
+                android:id="@+id/31"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/32"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/33"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/34"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/35"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/36"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/37"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/38"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:text="6"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
+                android:textSize="25sp"
+                tools:text="6" />
+
+            <ImageButton
+                android:id="@+id/41"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/42"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/43"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/44"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/45"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/46"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/47"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/48"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:text="5"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
+                android:textSize="25sp"
+                tools:text="5" />
+
+            <ImageButton
+                android:id="@+id/51"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/52"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/53"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/54"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/55"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/56"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/57"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/58"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:text="4"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
+                android:textSize="25sp"
+                tools:text="4" />
+
+            <ImageButton
+                android:id="@+id/61"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/62"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/63"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/64"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/65"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/66"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/67"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/68"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:text="3"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
+                android:textSize="25sp"
+                tools:text="3" />
+
+            <ImageButton
+                android:id="@+id/71"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/72"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/73"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/74"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/75"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/76"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/77"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/78"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:text="2"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
+                android:textSize="25sp"
+                tools:text="2" />
+
+            <ImageButton
+                android:id="@+id/81"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/82"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/83"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/84"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/85"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/86"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/87"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/88"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:text="1"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
+                android:textSize="25sp"
+                tools:text="1" />
+
+            <ImageButton
+                android:id="@+id/91"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/92"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/93"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/94"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/95"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/96"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/97"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+
+            <ImageButton
+                android:id="@+id/98"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:color/holo_red_dark" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Alphabet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/GridSpacer"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/txtA"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:text="a"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
+                android:textSize="25sp"
+                tools:text="a" />
+
+            <TextView
+                android:id="@+id/txtB"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:text="b"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
+                android:textSize="25sp"
+                tools:text="b" />
+
+            <TextView
+                android:id="@+id/txtC"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:text="c"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
+                android:textSize="25sp"
+                tools:text="c" />
+
+            <TextView
+                android:id="@+id/txtD"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:text="d"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
+                android:textSize="25sp"
+                tools:text="d" />
+
+            <TextView
+                android:id="@+id/txtE"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:text="e"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
+                android:textSize="25sp"
+                tools:text="e" />
+
+            <TextView
+                android:id="@+id/txtF"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:text="f"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
+                android:textSize="25sp"
+                tools:text="f" />
+
+            <TextView
+                android:id="@+id/txtG"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:text="g"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
+                android:textSize="25sp"
+                tools:text="g" />
+
+            <TextView
+                android:id="@+id/txtH"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:fontFamily="monospace"
+                android:text="h"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
+                android:textSize="25sp"
+                tools:text="h" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
