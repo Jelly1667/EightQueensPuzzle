@@ -6,6 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".QueensPlacement">
 
+    <Button
+        android:id="@+id/ImageTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=" Image Test"
+        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintEnd_toEndOf="@+id/Layout"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Layout"
+        app:layout_constraintVertical_bias="0.916"
+        tools:text=" Image Test" />
+
     <TableLayout
         android:id="@+id/Layout"
         android:layout_width="0dp"
@@ -16,10 +33,10 @@
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="1.0">
 
         <TableRow
             android:id="@+id/Row1"
@@ -39,52 +56,52 @@
                 tools:text="8" />
 
             <ImageButton
-                android:id="@+id/21"
+                android:id="@+id/r21"
                 android:layout_width="40dp"
-                android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/22"
+                android:id="@+id/r22"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/23"
+                android:id="@+id/r23"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/24"
+                android:id="@+id/r24"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/25"
+                android:id="@+id/r25"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/26"
+                android:id="@+id/r26"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/27"
+                android:id="@+id/r27"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/28"
+                android:id="@+id/r28"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
         </TableRow>
 
@@ -105,52 +122,52 @@
                 tools:text="7" />
 
             <ImageButton
-                android:id="@+id/31"
-                android:layout_width="40dp"
+                android:id="@+id/r31"
+                android:layout_width="37dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/32"
+                android:id="@+id/r32"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/33"
+                android:id="@+id/r33"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/34"
+                android:id="@+id/r34"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/35"
+                android:id="@+id/r35"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/36"
+                android:id="@+id/r36"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/37"
+                android:id="@+id/r37"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/38"
+                android:id="@+id/r38"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
         </TableRow>
 
         <TableRow
@@ -170,52 +187,52 @@
                 tools:text="6" />
 
             <ImageButton
-                android:id="@+id/41"
+                android:id="@+id/r41"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/42"
+                android:id="@+id/r42"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/43"
+                android:id="@+id/r43"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/44"
+                android:id="@+id/r44"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/45"
+                android:id="@+id/r45"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/46"
+                android:id="@+id/r46"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/47"
+                android:id="@+id/r47"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/48"
+                android:id="@+id/r48"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
         </TableRow>
 
         <TableRow
@@ -235,52 +252,52 @@
                 tools:text="5" />
 
             <ImageButton
-                android:id="@+id/51"
+                android:id="@+id/r51"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/52"
+                android:id="@+id/r52"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/53"
+                android:id="@+id/r53"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/54"
+                android:id="@+id/r54"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/55"
+                android:id="@+id/r55"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/56"
+                android:id="@+id/r56"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/57"
+                android:id="@+id/r57"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/58"
+                android:id="@+id/r58"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
         </TableRow>
 
@@ -301,52 +318,52 @@
                 tools:text="4" />
 
             <ImageButton
-                android:id="@+id/61"
+                android:id="@+id/r61"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/62"
+                android:id="@+id/r62"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/63"
+                android:id="@+id/r63"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/64"
+                android:id="@+id/r64"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/65"
+                android:id="@+id/r65"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/66"
+                android:id="@+id/r66"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/67"
+                android:id="@+id/r67"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/68"
+                android:id="@+id/r68"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
         </TableRow>
 
         <TableRow
@@ -366,52 +383,52 @@
                 tools:text="3" />
 
             <ImageButton
-                android:id="@+id/71"
+                android:id="@+id/r71"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/72"
+                android:id="@+id/r72"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/73"
+                android:id="@+id/r73"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/74"
+                android:id="@+id/r74"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/75"
+                android:id="@+id/r75"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/76"
+                android:id="@+id/r76"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/77"
+                android:id="@+id/r77"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/78"
+                android:id="@+id/r78"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
         </TableRow>
 
         <TableRow
@@ -431,52 +448,52 @@
                 tools:text="2" />
 
             <ImageButton
-                android:id="@+id/81"
+                android:id="@+id/r81"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/82"
+                android:id="@+id/r82"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/83"
+                android:id="@+id/r83"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/84"
+                android:id="@+id/r84"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/85"
+                android:id="@+id/r85"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/86"
+                android:id="@+id/r86"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/87"
+                android:id="@+id/r87"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/88"
+                android:id="@+id/r88"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
         </TableRow>
 
         <TableRow
@@ -496,52 +513,52 @@
                 tools:text="1" />
 
             <ImageButton
-                android:id="@+id/91"
+                android:id="@+id/r91"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/92"
+                android:id="@+id/r92"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/93"
+                android:id="@+id/r93"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/94"
+                android:id="@+id/r94"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/95"
+                android:id="@+id/r95"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/96"
+                android:id="@+id/r96"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
 
             <ImageButton
-                android:id="@+id/97"
+                android:id="@+id/r97"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/holo_red_dark" />
 
             <ImageButton
-                android:id="@+id/98"
+                android:id="@+id/r98"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@android:color/holo_red_dark" />
+                android:background="@android:color/darker_gray" />
         </TableRow>
 
         <TableRow

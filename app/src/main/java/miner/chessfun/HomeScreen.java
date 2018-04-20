@@ -14,8 +14,8 @@ public class HomeScreen extends AppCompatActivity {
         setContentView(R.layout.activity_home_screen);
 
         //btnPost Onclick
-        final Button btnPost = (Button) findViewById(R.id.OpenActivity);
-        btnPost.setOnClickListener(new View.OnClickListener() {
+        final Button OpenAct = (Button) findViewById(R.id.OpenActivity);
+        OpenAct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent startPostPage= new Intent(v.getContext(), QueensPlacement.class);
