@@ -14,7 +14,7 @@ public class QueensPlacement extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_queens_placement);
 
-        //Image Test
+        /*//Image Test
         final ImageButton btn21 = (ImageButton) findViewById(R.id.r21);
         final ImageButton btn98 = (ImageButton) findViewById(R.id.r98);
         final Button ImageTst = (Button) findViewById(R.id.ImageTest);
@@ -24,6 +24,6 @@ public class QueensPlacement extends AppCompatActivity {
                 btn98.setImageResource(R.drawable.ic_knight);
                 btn21.setImageResource(R.drawable.ic_queen);
             }
-        });
+        });*/
     }
 }
