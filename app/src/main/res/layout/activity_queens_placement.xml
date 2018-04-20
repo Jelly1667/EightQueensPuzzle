@@ -6,23 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".QueensPlacement">
 
-    <Button
-        android:id="@+id/ImageTest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text=" Image Test"
-        app:layout_constraintBottom_toBottomOf="@+id/Layout"
-        app:layout_constraintEnd_toEndOf="@+id/Layout"
-        app:layout_constraintHorizontal_bias="0.517"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/Layout"
-        app:layout_constraintVertical_bias="0.916"
-        tools:text=" Image Test" />
-
     <TableLayout
         android:id="@+id/Layout"
         android:layout_width="0dp"
@@ -36,7 +19,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.0">
 
         <TableRow
             android:id="@+id/Row1"
@@ -664,5 +647,128 @@
         </TableRow>
 
     </TableLayout>
+
+    <TextView
+        android:id="@+id/LabelStartingPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="monospace"
+        android:text="Enter Postion:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Layout"
+        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintStart_toStartOf="@+id/Layout"
+        app:layout_constraintTop_toTopOf="@+id/Layout"
+        app:layout_constraintVertical_bias="0.681" />
+
+    <TextView
+        android:id="@+id/labelBestPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="monospace"
+        android:text="Best Play: 0"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Layout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Layout"
+        app:layout_constraintTop_toTopOf="@+id/Layout"
+        app:layout_constraintVertical_bias="0.813" />
+
+    <TextView
+        android:id="@+id/labelStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="monospace"
+        android:text="Status: Working"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Layout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Layout"
+        app:layout_constraintTop_toTopOf="@+id/Layout"
+        app:layout_constraintVertical_bias="0.735" />
+
+    <TextView
+        android:id="@+id/labelMoves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="monospace"
+        android:text="Moves: 0"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Layout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Layout"
+        app:layout_constraintTop_toTopOf="@+id/Layout"
+        app:layout_constraintVertical_bias="0.657" />
+
+    <EditText
+        android:id="@+id/InputSrtPostition"
+        android:layout_width="84dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="a1"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/LabelStartingPosition"
+        app:layout_constraintHorizontal_bias="0.37"
+        app:layout_constraintStart_toStartOf="@+id/LabelStartingPosition"
+        app:layout_constraintTop_toBottomOf="@+id/LabelStartingPosition"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <Button
+        android:id="@+id/btnRun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="monospace"
+        android:text="Run"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/btnCancel2"
+        app:layout_constraintTop_toBottomOf="@+id/InputSrtPostition" />
+
+    <Button
+        android:id="@+id/btnCancel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:text="Cancel"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/labelStatus"
+        app:layout_constraintTop_toBottomOf="@+id/labelBestPlay"
+        app:layout_constraintVertical_bias="0.0" />
 
 </android.support.constraint.ConstraintLayout>
