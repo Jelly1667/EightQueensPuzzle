@@ -27,16 +27,16 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/txt8"
+                android:id="@+id/txt1"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:fontFamily="monospace"
-                android:text="8"
+                android:text="1"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
                 android:textSize="25sp"
-                tools:text="8" />
+                tools:text="1" />
 
             <ImageButton
                 android:id="@+id/r21"
@@ -94,15 +94,15 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/txt7"
+                android:id="@+id/txt2"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:fontFamily="monospace"
-                android:text="7"
+                android:text="2"
                 android:textAlignment="center"
                 android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
                 android:textSize="25sp"
-                tools:text="7" />
+                tools:text="2" />
 
             <ImageButton
                 android:id="@+id/r31"
@@ -159,15 +159,15 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/txt6"
+                android:id="@+id/txt3"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:fontFamily="monospace"
-                android:text="6"
+                android:text="3"
                 android:textAlignment="center"
                 android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
                 android:textSize="25sp"
-                tools:text="6" />
+                tools:text="3" />
 
             <ImageButton
                 android:id="@+id/r41"
@@ -224,15 +224,15 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/txt5"
+                android:id="@+id/txt4"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:fontFamily="monospace"
-                android:text="5"
+                android:text="4"
                 android:textAlignment="center"
                 android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
                 android:textSize="25sp"
-                tools:text="5" />
+                tools:text="4" />
 
             <ImageButton
                 android:id="@+id/r51"
@@ -290,15 +290,15 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/txt4"
+                android:id="@+id/txt5"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:fontFamily="monospace"
-                android:text="4"
+                android:text="5"
                 android:textAlignment="center"
                 android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
                 android:textSize="25sp"
-                tools:text="4" />
+                tools:text="5" />
 
             <ImageButton
                 android:id="@+id/r61"
@@ -355,15 +355,15 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/txt3"
+                android:id="@+id/txt6"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:fontFamily="monospace"
-                android:text="3"
+                android:text="6"
                 android:textAlignment="center"
                 android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
                 android:textSize="25sp"
-                tools:text="3" />
+                tools:text="6" />
 
             <ImageButton
                 android:id="@+id/r71"
@@ -420,15 +420,15 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/txt2"
+                android:id="@+id/txt7"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:fontFamily="monospace"
-                android:text="2"
+                android:text="7"
                 android:textAlignment="center"
                 android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
                 android:textSize="25sp"
-                tools:text="2" />
+                tools:text="7" />
 
             <ImageButton
                 android:id="@+id/r81"
@@ -485,15 +485,15 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/txt1"
+                android:id="@+id/txt8"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:fontFamily="monospace"
-                android:text="1"
+                android:text="8"
                 android:textAlignment="center"
                 android:textAppearance="@android:style/TextAppearance.Material.Notification.Title"
                 android:textSize="25sp"
-                tools:text="1" />
+                tools:text="8" />
 
             <ImageButton
                 android:id="@+id/r91"
@@ -651,7 +651,7 @@
     <TextView
         android:id="@+id/LabelStartingPosition"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="25dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -665,7 +665,7 @@
         app:layout_constraintHorizontal_bias="0.939"
         app:layout_constraintStart_toStartOf="@+id/Layout"
         app:layout_constraintTop_toTopOf="@+id/Layout"
-        app:layout_constraintVertical_bias="0.681" />
+        app:layout_constraintVertical_bias="0.657" />
 
     <TextView
         android:id="@+id/labelBestPlay"
@@ -734,24 +734,24 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:fontFamily="monospace"
-        android:maxLength="2"
-        android:hint="a1"
+        android:hint="A1"
         android:inputType="text"
+        android:maxLength="2"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/LabelStartingPosition"
-        app:layout_constraintHorizontal_bias="0.37"
+        app:layout_constraintHorizontal_bias="0.408"
         app:layout_constraintStart_toStartOf="@+id/LabelStartingPosition"
         app:layout_constraintTop_toBottomOf="@+id/LabelStartingPosition"
-        app:layout_constraintVertical_bias="0.06" />
+        app:layout_constraintVertical_bias="0.174" />
 
     <Button
         android:id="@+id/btnRun"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="152dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="28dp"
         android:fontFamily="monospace"
         android:text="Run"
         android:textSize="18sp"
