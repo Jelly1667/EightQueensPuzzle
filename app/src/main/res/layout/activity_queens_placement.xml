@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QueensPlacement">
+    tools:context=".BoardScreen">
 
     <TableLayout
         android:id="@+id/Layout"
@@ -676,7 +676,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="monospace"
-        android:text="Best Play: 0"
+        android:text="Queens: 0"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -714,7 +714,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="monospace"
-        android:text="Moves: 0"
+        android:text="Total Moves: 0"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -755,11 +755,11 @@
         android:fontFamily="monospace"
         android:text="Run"
         android:textSize="18sp"
-        app:layout_constraintStart_toEndOf="@+id/btnCancel2"
+        app:layout_constraintStart_toEndOf="@+id/btnCancel"
         app:layout_constraintTop_toBottomOf="@+id/InputSrtPostition" />
 
     <Button
-        android:id="@+id/btnCancel2"
+        android:id="@+id/btnCancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"

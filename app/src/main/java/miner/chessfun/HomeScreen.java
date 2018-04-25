@@ -18,7 +18,7 @@ public class HomeScreen extends AppCompatActivity {
         OpenAct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startPostPage= new Intent(v.getContext(), QueensPlacement.class);
+                Intent startPostPage = new Intent(v.getContext(), BoardScreen.class);
                 startActivity(startPostPage);
             }
         });

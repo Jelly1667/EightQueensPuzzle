@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".QueensPlacement"></activity>
+        <activity android:name=".BoardScreen"></activity>
     </application>
 
 </manifest>

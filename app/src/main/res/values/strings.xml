@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ChessFun</string>
+    <string
+        name="TotalMoves"
+        >Total Moves: </string>
+    <string
+        name="Finished"
+        >Status: Finished</string>
 </resources>
